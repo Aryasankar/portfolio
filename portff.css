@@ -1,0 +1,429 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200;1,300;1,400;1,500;1,600&family=Ubuntu:ital,wght@0,400;1,400;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url(https://img.freepik.com/premium-photo/various-computer-equipment-with-programming-code-screens-table-dark-room-cyber-security-concept-copy-space_236854-23136.jpg);
+    background-size: cover;
+    
+    
+
+
+}
+
+
+nav{
+    
+    display: flex;
+    width: 100%;
+    margin-left: 100px;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(9, 81, 66);
+    margin: 0 0;
+    height: 65px; 
+}
+
+
+ #logo{
+    width: 55px;
+    height: 55px;
+    border: 2px solid;
+    border-radius: 50%;
+    font-size: 150px;
+    margin-left: 10%;
+
+    
+}
+
+
+
+nav ul li{
+    display: inline-block;
+    margin: 10px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color:rgb(217, 239, 237);
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+    padding-right: 20px;
+    font-size: 20px;
+    
+}
+
+nav ul li a:hover{
+    color: rgb(235, 159, 159);
+}
+
+.title{
+    margin-left: 8%;
+    margin-top: 15%;
+    text-align: center;
+}
+
+.title h2{
+    color: rgb(24, 172, 157);
+    font-family: 'Ubuntu', sans-serif;
+    padding-right: 50px;
+    
+}
+ 
+
+
+.title h1{
+    font-size: 50px;
+    color: wheat;
+    margin-bottom: 25px;
+    font-family: 'Ubuntu', sans-serif;
+    
+
+
+}
+
+.title span{
+    color: rgb(21, 181, 167);
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+
+.title p{
+    color: rgb(248, 234, 234);
+    line-height: 30px;
+    font-family: 'Ubuntu', sans-serif;
+   
+    
+    
+
+
+}
+
+.btn a{
+    background-color: rgb(4, 80, 38);
+    padding: 10px 18px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+}
+
+
+
+#about{
+    margin-left: 8%;
+    margin-top: 13%;
+    margin-right: 8%;
+    
+}
+
+.about-img .imag{
+    width: 250px;
+    height: 250px;
+    border: 2px solid;
+}
+
+.heading{
+    
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    
+
+
+}
+.heading i{
+    font-size: 35px;
+    color: black;
+
+}
+
+.heading h2{
+    font-size: 35px;
+    font-family: 'Ubuntu', sans-serif;
+
+
+}
+
+.heading span{
+    font-size: 25px;
+    color: rgb(1, 72, 33);
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+.about-content{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1rem;
+    margin-top: 2rem;
+    padding-right: 18%;
+    
+}
+
+.about-img{
+    width: 100%;
+    border-radius: 10px;
+    
+}
+
+.about-text{
+    font-size: 18px;
+    font-weight: 500;
+    text-align: justify;
+
+}
+.about-text p{
+    color: black;
+     line-height: 30px;
+     font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+
+
+
+}
+
+.info ul{
+    list-style-type: circle;
+    font-weight:  bold;
+    margin-left: 10%;
+    margin-top: 10px;
+    line-height: 30px;
+    color: black;
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+
+
+
+.info ul span{
+    font-size: 20pxpx;
+    color: #2c2e2d;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+#education{
+    margin-left: 8%;
+    margin-top: 10%;
+    margin-right: 8%;
+    padding-bottom: 10%;
+}
+
+.education-content{
+    display: flex;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    gap: 2rem;
+}
+
+.eductn{
+    width: 100%;
+    padding: 35px 10%;
+}
+
+.row{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 20px;
+}
+
+.tit{
+    font-family: 'Ubuntu', sans-serif;
+    color: rgb(68, 153, 68);
+    padding: 0px 0px 30px;
+}
+ .tit h1{
+    margin-top: 20%;
+    font-size: 20px;
+    background-color: rgb(4, 80, 38);
+    padding: 10px 1px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    display: inline-block;
+    margin: 15px 20px;
+    border-radius: 10px;
+    width: 200px;
+    height: 40px;
+    border-radius: 15px;
+    
+    
+    
+}
+
+.tit .pos h1{
+    padding: 30px 0;
+}
+    
+
+
+
+
+
+.details{
+    padding: 0px 30px;
+    border-left: 2px solid #bababa;
+}
+
+.box{
+    position: relative;
+    padding: 10px;
+    border: 2px solid #ded1d1;
+    background-color: #e2dede;
+    transition: all 0.4s;
+    height: 175px;
+    
+    
+
+
+}
+
+.box:hover{
+    box-shadow: 0px 5px 15px 0px #bca4a4;
+    border: 1px solid transparent;
+}
+
+.box::before{
+    content: '';
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    right: calc(100% + 22px);
+    top: 0;
+    background-color: #11a372;
+    border: 2px solid white;
+}
+
+.box h1{
+    position: relative;
+    color: #11a372;
+    
+}
+
+.box h3{
+    font-size: 19px;
+    padding: 10px 0px 6px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #444;
+}
+
+
+
+#contact{
+    margin-left: 18%;
+    margin-right: 8%;
+    margin-top: 20%;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: antiquewhite;
+    margin: 0 0;
+
+}
+
+.heading h2{
+    color: rgb(2, 63, 41);
+    font-family: 'Ubuntu', sans-serif;
+    padding-top: 40px;
+}
+
+.iconDiv{
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon{
+
+    width: 50px;
+    height: 50px;
+    border: 2px solid;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(192, 127, 253);
+    margin: 0 10px;
+}
+
+.icon i{
+    font-size: 20px;
+
+}
+
+.icon i:hover{
+    color: white;
+}
+
+footer{
+    margin-top: 2rem;
+    font-weight: bolder;
+    color: rgb(23, 2, 2);
+    font-family: 'Ubuntu', sans-serif;
+    padding-bottom: 50px;
+    padding-top: 20px;
+}
+    
+
+
+@media(max-width:600px){
+
+  .container{
+    width: 100%;
+    background: url(./image/we.png);
+    background-size: cover;
+  }
+
+  nav{
+    
+  width: 100%;
+   
+}
+
+nav ul li a{
+    font-size: small;
+   
+   
+}
+
+.title{
+        
+    padding-top: 15%;
+}
+
+
+
+.about-content{
+    display: inline;
+}
+
+
+
+
+
+.row{
+    display: inline;
+}
+ 
+footer{
+    font-size: small;
+}
+
+}
